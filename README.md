@@ -18,7 +18,7 @@ This project goes beyond basic model training by addressing real-world data chal
 * **🧠 Deep Learning Architecture:** Built a Multi-Layer Perceptron (MLP) with **TensorFlow** to outperform baseline statistical methods.
 * **⚖️ Handling Class Imbalance:** Applied **Computed Class Weights** during training. This forced the model to pay 4x more attention to the minority class (Churners), preventing the common "accuracy paradox" where models just guess "Stay" for everyone.
 * **🎛️ Automated Hyperparameter Tuning:** Utilized **Keras Tuner** (Hyperband algorithm) to mathematically determine the optimal number of neurons (128), learning rate (0.01), and dropout rates.
-* **📉 High-Recall Optimization:** Focused on maximizing **Recall (0.85)** for the churn class, ensuring that 85% of at-risk customers are successfully identified.
+* **📉 High-Recall Optimization:** Focused on maximizing **Recall (0.75)** for the churn class, ensuring that 75% of at-risk customers are successfully identified.
 
 ## 📊 Model Performance
 After extensive tuning and evaluation on 10,000 banking records:
